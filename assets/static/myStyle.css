@@ -1,3 +1,9 @@
+@media only screen and (max-width: 600px) {
+    section {
+      width: 112%;
+    }
+}
+
 .me {
     font-size: 300%;
     margin: 0;
@@ -20,6 +26,7 @@ h3 {
     font-size: 175%;
     font-family: 'Times New Roman', Times, serif;
     color: black;
+    text-shadow: -2px 2px 5px white;
 }
 
 .intro-text {
@@ -28,7 +35,7 @@ h3 {
 }
 
 #about, #contact {
-    background: linear-gradient(100deg, #032e22, #033a36); 
+    background: linear-gradient(100deg, #032e22, #033a36);
 }
 
 #contact {
@@ -82,6 +89,7 @@ footer{
 
 footer p {
     font-size: 125%;
+    width: 100%;
 }
 
 footer .fa-coffee {
