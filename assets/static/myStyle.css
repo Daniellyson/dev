@@ -43,10 +43,9 @@ h3 {
     padding-bottom: 10px;   
 }
 
-#about {
+#about, #tool {
     padding-top: 35px;
-    padding-bottom: 35px; 
-    
+    padding-bottom: 35px;   
 }
 
 .btn {
@@ -55,9 +54,13 @@ h3 {
     border-color: white;
 }
 
-img {
+img#myPic {
     float: left;
     border-radius: 50%;
+}
+
+img.tools {
+    padding: 10px;
 }
 
 .about-me {
@@ -88,12 +91,12 @@ footer{
 }
 
 footer p {
-    font-size: 125%;
+    font-size: 115%;
     width: 100%;
 }
 
 footer .fa-coffee {
-    color: #8a4b38;
+    color: #e07150;
 }
 
 footer .fa-heart {
