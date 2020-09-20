@@ -1,0 +1,62 @@
+section, footer {
+    width: 112%;
+}
+
+p#pTools {
+    color: white;
+    text-shadow: -2px 2px rgb(116, 15, 15);
+}
+
+/*brand side bar right*/
+nav#mainNav, div#brandNavbar {
+    display: inline;
+}
+
+#mainNav .navbar-toggler {
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.navbar-brand {
+    margin-top: 2px;
+    float: right;
+}
+/*brand side bar right*/
+
+/*SideBar left*/
+
+button#openbtn {   
+    cursor: pointer;
+    background-color: wheat;
+    border: 3px solid rgb(72, 73, 73);
+    border-radius: 6px;
+    color: rgb(148, 18, 18);
+    margin-top: 5px;
+}
+
+#mySidebar #closebtn {
+    margin-top: -10px;
+    font-size: 25px;
+    text-align: right;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+#mySidebar {
+    padding-top: 15px;
+}
+
+#mySidebar a {
+    font-size: 15px;
+}
+
+#mySidebar a:not(:first-child) {
+    margin-left: -12px;
+}
+
+span#portifolio {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*SideBar left*/

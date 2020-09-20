@@ -1,12 +1,30 @@
-@media only screen and (max-width: 600px) {
-    section, footer {
-      width: 112%;
-    }
-    p#pTools {
-        color: white;
-        text-shadow: -2px 2px rgb(116, 15, 15);
-    }
+/*Side Bar*/
+
+span#portifolio {
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
+#mySidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0px;
+    background-color: rgb(44, 40, 40);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+#mySidebar a {
+    padding: 0px 8px 8px 32px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    display: block;
+}
+/*Side Bar*/
 
 .me {
     font-size: 300%;

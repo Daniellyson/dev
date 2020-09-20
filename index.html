@@ -11,15 +11,30 @@
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
 
     <link rel="stylesheet" href="assets/static/myStyle.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="assets/static/phone.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 601px)" href="assets/static/desktop.css">
+
     <script src="assets/static/loads.js"></script>
+    <script type="text/javascript" src="assets/static/sideBar.js" rel="script"></script>
 </head>
 
 <body id="page-top">
     <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#">Dany</a>
-            <button data-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
+
+        <div id="mySidebar">
+            <a id="closebtn" onclick="closeNav()"><i class="fa fa-times" aria-hidden="true"></i></a>
+            <a href="https://daniellyson.github.io/Fuel/" target="_blank">Fuel consuption</a> 
+        </div>
+
+        <button id="openbtn" onclick="openNav()"><i class="fa fa-bars"></i></button> 
+
+        <span id="portifolio">Portfolio</span>
+
+        <div id="brandNavbar" class="container">
+            
+            <button data-toggle="collapse" class="navbar-toggler navbar-toggler-right navbar-brand" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
                 value="Menu"><i class="fa fa-bars"></i></button>
+                <a class="navbar-brand js-scroll-trigger" href="#">Dany</a>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link active js-scroll-trigger" href="#about">About</a></li>
@@ -68,7 +83,7 @@
         <div class="container">
             <div class="col-lg-10 mx-auto">
                 <h1 class="cTools">Some tools</h1>
-                <p id="pTools">Tools and technologies seen at college</p>
+                <p id="pTools">Tools and technologies I have experimented already</p>
 
                  <img class="tools" src="assets/img/tools/cLang.png" width="150" height="150" >
                  <img class="tools" src="assets/img/tools/java.png" width="170" height="170" >

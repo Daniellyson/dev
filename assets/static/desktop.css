@@ -1,0 +1,20 @@
+/*DESKTOP*/
+#openbtn {   
+    top: 25px;
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: wheat;
+    border: 3px solid rgb(72, 73, 73);
+    border-radius: 6px;
+    color: rgb(148, 18, 18);
+    padding: 5px 10px;
+}
+
+#mySidebar a#closebtn {    
+    font-size: 36px;
+    text-align: right;
+    cursor: pointer;
+    margin-right: 25px;
+}
+/*DESKTOP*/

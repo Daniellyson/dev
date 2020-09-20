@@ -10,4 +10,3 @@ function fireGitHub() {
 function fireLinkedin() {
     location.href = "https://www.linkedin.com/in/daniellyson-vasconcelos/";
 }
-
