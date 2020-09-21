@@ -1,0 +1,197 @@
+/*Side Bar*/
+button#openbtn {
+    cursor: pointer;
+    border: 3px solid rgb(72, 73, 73);
+    background-color: wheat;
+    color: rgb(148, 18, 18);
+    border-radius: 6px;
+}
+
+span#portifolio {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#mySidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0px;
+    background-color: rgb(44, 40, 40);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+#mySidebar a {
+    padding: 0px 8px 8px 32px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    display: block;
+}
+/*Side Bar*/
+
+#mainNav.navbar-shrink {
+    background: linear-gradient(100deg, #054432 , #043331, black); 
+}
+
+.me {
+    font-size: 300%;
+    margin: 0;
+}
+
+.intro-text {
+    color: black;
+}
+
+.mail {
+    font-size: 35px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+h3 {
+    font-size: 175%;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(1, 41, 94);
+    text-shadow: -1px -1px 2px white, 0 0 25px rgb(255, 255, 255), 0 0 5px rgb(9, 135, 207);
+}
+
+.intro-text {
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contact {
+    padding-top: 20px;
+    padding-bottom: 10px;   
+}
+
+#about, #tool {
+    padding-top: 35px;
+    padding-bottom: 35px;   
+}
+
+.btn {
+    color: white;
+    border-radius: 25px;
+    border-color: white;
+}
+
+img#myPic {
+    float: left;
+    border-radius: 50%;
+}
+
+img.tools {
+    padding: 10px;
+}
+
+.about-me {
+    box-sizing: border-box;
+    display: inline;
+    padding-left: 50px;
+    text-align: center;
+}
+
+#tools {
+    padding-top: 50px;
+}
+
+.cTools {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#pTools {
+    color: black;
+    font-weight: bold;
+}
+
+footer{
+    background: linear-gradient(100deg, #043331, #000705); 
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+footer p {
+    font-size: 115%;
+    width: 100%;
+}
+
+footer .fa-coffee {
+    color: #e07150;
+}
+
+footer .fa-heart {
+    color: #ff0000;
+}
+
+footer .fa-copyright {
+    color: #05504c;
+}
+
+#about, #contact {
+    /*background: linear-gradient(35deg, #04635b, #04300a, black);*/
+
+    background: linear-gradient(246deg, rgba(234, 234, 234, 0.04) 0%,
+     rgba(234, 234, 234, 0.04) 33.3%,
+     rgba(69, 69, 69, 0.04) 33.3%,
+      rgba(69, 69, 69, 0.04) 66.6%,
+      rgba(189, 189, 189, 0.04) 66.6%, 
+      rgba(189, 189, 189, 0.04) 99.89999999999999%),
+      linear-gradient(81deg, rgba(126, 126, 126, 0.05) 0%,
+       rgba(126, 126, 126, 0.05) 33.3%,
+       rgba(237, 237, 237, 0.05) 33.3%, rgba(237, 237, 237, 0.05) 66.6%
+       ,rgba(74, 74, 74, 0.05) 66.6%, 
+       rgba(74, 74, 74, 0.05) 99.89999999999999%),
+       linear-gradient(14deg, rgba(3, 3, 3, 0.08) 0%,
+        rgba(3, 3, 3, 0.08) 33.3%,
+        rgba(156, 156, 156, 0.08) 33.3%, 
+        rgba(156, 156, 156, 0.08) 66.6%,
+        rgba(199, 199, 199, 0.08) 66.6%, 
+        rgba(199, 199, 199, 0.08) 99.89999999999999%),
+        linear-gradient(323deg, rgba(82, 82, 82, 0.06) 0%, 
+        rgba(82, 82, 82, 0.06) 33.3%,
+        rgba(179, 179, 179, 0.06) 33.3%, 
+        rgba(179, 179, 179, 0.06) 66.6%,
+        rgba(212, 212, 212, 0.06) 66.6%, 
+        rgba(212, 212, 212, 0.06) 99.89999999999999%),
+        linear-gradient(32deg, rgba(70, 70, 70, 0.02) 0%, 
+        rgba(70, 70, 70, 0.02) 33.3%,
+        rgba(166, 166, 166, 0.02) 33.3%, 
+        rgba(166, 166, 166, 0.02) 66.6%,
+        rgba(53, 53, 53, 0.02) 66.6%, 
+        rgba(53, 53, 53, 0.02) 99.89999999999999%),
+        linear-gradient(38deg, rgba(129, 129, 129, 0.09) 0%, 
+        rgba(129, 129, 129, 0.09) 33.3%,rgba(38, 38, 38, 0.09) 33.3%, 
+        rgba(38, 38, 38, 0.09) 66.6%,rgba(153, 153, 153, 0.09) 66.6%, 
+        rgba(153, 153, 153, 0.09) 99.89999999999999%),linear-gradient(63deg, rgba(51, 51, 51, 0.02) 0%, 
+        rgba(51, 51, 51, 0.02) 33.3%,rgba(12, 12, 12, 0.02) 33.3%, rgba(12, 12, 12, 0.02) 66.6%,
+        rgba(158, 158, 158, 0.02) 66.6%, rgba(158, 158, 158, 0.02) 99.89999999999999%),
+        linear-gradient(227deg, rgba(63, 63, 63, 0.03) 0%, rgba(63, 63, 63, 0.03) 33.3%,
+        rgba(9, 9, 9, 0.03) 33.3%, rgba(9, 9, 9, 0.03) 66.6%,rgba(85, 85, 85, 0.03) 66.6%, 
+        rgba(85, 85, 85, 0.03) 99.89999999999999%),linear-gradient(103deg, rgba(247, 247, 247, 0.07) 0%, 
+        rgba(247, 247, 247, 0.07) 33.3%,rgba(93, 93, 93, 0.07) 33.3%, rgba(93, 93, 93, 0.07) 66.6%,
+        rgba(208, 208, 208, 0.07) 66.6%, rgba(208, 208, 208, 0.07) 99%),linear-gradient(35deg, #04635b,#04300a, black);
+}
+
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+    z-index: 9999;
+    /* gif loading page */
+	background: url(https://upload.wikimedia.org/wikipedia/commons/c/c7/Loading_2.gif) center no-repeat #fff;
+}

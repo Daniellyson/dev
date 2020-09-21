@@ -26,11 +26,6 @@ nav#mainNav, div#brandNavbar {
 /*SideBar left*/
 
 button#openbtn {   
-    cursor: pointer;
-    background-color: wheat;
-    border: 3px solid rgb(72, 73, 73);
-    border-radius: 6px;
-    color: rgb(148, 18, 18);
     margin-top: 5px;
 }
 
