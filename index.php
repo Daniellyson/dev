@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -17,7 +16,7 @@
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 601px)" href="static/desktop.css">
 
     <script src="static/loads.js"></script>
-    <script type="text/javascript" src="static/sideBar.js" rel="script"></script>    
+    <script type="text/javascript" src="static/sideBar.js" rel="script"></script> 
 </head>
 
 <body id="page-top">
@@ -87,17 +86,17 @@
                 <h1 class="cTools">Some tools</h1>
                 <p id="pTools">Tools and technologies I have experimented already</p>
 
-                 <img class="tools" src="assets/img/tools/cLang.png" width="150" height="150" >
-                 <img class="tools" src="assets/img/tools/java.png" width="170" height="170" >
-                 <img class="tools" src="assets/img/tools/html5-css3.png" width="210" height="160" >
-                 <img class="tools" src="assets/img/tools/js.png" width="150" height="160" >
-                 <img class="tools" src="assets/img/tools/cSharp.png" width="150" height="160" >
-                 <img class="tools" src="assets/img/tools/sql.png" width="250" height="200" >
-                 <img class="tools" src="assets/img/tools/angular.png" width="270" height="150" >
-                 <img class="tools" src="assets/img/tools/spring-boot.png" width="350" height="170" >
-                 <img class="tools" src="assets/img/tools/php.png" width="190" height="155" >
-                 <img class="tools" src="assets/img/tools/git.png" width="170" height="170" >
-                 <img class="tools" src="assets/img/tools/unity-icon-1.png" width="180" height="180" >
+                 <img id="cLang" class="tools" src="assets/img/tools/cLang.png" width="150" height="150" >
+                 <img id="java" class="tools" src="assets/img/tools/java.png" width="170" height="170" >
+                 <img id="html5" class="tools" src="assets/img/tools/html5-css3.png" width="210" height="160" >
+                 <img id="js" class="tools" src="assets/img/tools/js.png" width="150" height="160" >
+                 <img id="cSharp" class="tools" src="assets/img/tools/cSharp.png" width="150" height="160" >
+                 <img id="sql" class="tools" src="assets/img/tools/sql.png" width="250" height="200" >
+                 <img id="angular" class="tools" src="assets/img/tools/angular.png" width="270" height="150" >
+                 <img id="spring" class="tools" src="assets/img/tools/spring-boot.png" width="350" height="170" >
+                 <img id="php" class="tools" src="assets/img/tools/php.png" width="190" height="155" >
+                 <img id="git" class="tools" src="assets/img/tools/git.png" width="170" height="170" >
+                 <img id="unity" class="tools" src="assets/img/tools/unity-icon-1.png" width="180" height="180" >
                  
             </div>
         </div>
@@ -137,10 +136,15 @@
             <p>Built with <i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i> by Daniellyson <i class="fa fa-copyright" aria-hidden="true"></i></p>
         </div>
     </footer>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="assets/js/script.min.js"></script>
+
+    <script src="https://unpkg.com/popper.js@1"></script>
+    <script src="https://unpkg.com/tippy.js@5"></script>
+    <script type="text/javascript" src="static/tippies.js" rel="script"></script> 
 </body>
 <div class="se-pre-con"></div>
 </html>
