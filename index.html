@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="static/myStyle.css">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="static/phone.css">
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 601px)" href="static/desktop.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 601px)" href="static/desktop.css">   
 
     <script src="static/loads.js"></script>
     <script type="text/javascript" src="static/sideBar.js" rel="script"></script> 
@@ -24,12 +24,13 @@
 
         <div id="mySidebar">
             <a id="closebtn" onclick="closeNav()"><i class="fa fa-times" aria-hidden="true"></i></a>
-            <a href="https://daniellyson.github.io/Fuel/" target="_blank">Fuel consumption</a> 
+            <a class="portfolios" href="https://daniellyson.github.io/Fuel/">Fuel consumption</a>
+            
         </div>
 
         <button id="openbtn" onclick="openNav()"><i class="fa fa-bars"></i></button> 
 
-        <span id="portifolio">Portfolio</span>
+        <span id="portfolio">Portfolio</span>
 
         <div id="brandNavbar" class="container">
             
@@ -45,7 +46,7 @@
             </div>
         </div>
     </nav>
-    <header class="masthead" style="background-image:url('assets/img/intro-bg.jpg');">
+    <header class="masthead">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
@@ -80,7 +81,7 @@
             </div>
         </div>
     </section>
-    <section id="tool" class="download-section content-section text-center" style="background-image:url('assets/img/downloads-bg.jpg');">
+    <section id="tool" class="download-section content-section text-center">
         <div class="container">
             <div class="col-lg-10 mx-auto">
                 <h1 class="cTools">Some tools</h1>
@@ -107,7 +108,7 @@
                 <div class="col-lg-9 mx-auto">
                     <h2>Contact</h2>
                     <p>Feel free to contact me</p>
-                    <i class="mail fa fa-envelope-o fa-fw"></i>
+                    <a href="mailto:daniellyson.vasconcelos@gmail.com"><i class="mail fa fa-envelope-o fa-fw"></i></a>
                     <p>                        
                         <span class="network-name">daniellyson.vasconcelos@gmail.com</span>
                     </p>
@@ -144,6 +145,7 @@
 
     <script src="https://unpkg.com/popper.js@1"></script>
     <script src="https://unpkg.com/tippy.js@5"></script>
+    
     <script type="text/javascript" src="static/tippies.js" rel="script"></script> 
 </body>
 <div class="se-pre-con"></div>

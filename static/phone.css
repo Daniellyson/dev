@@ -25,6 +25,10 @@ nav#mainNav, div#brandNavbar {
 
 /*SideBar left*/
 
+header, section#tool {
+    background-position: center;
+}
+
 button#openbtn {   
     margin-top: 5px;
 }
@@ -49,7 +53,7 @@ button#openbtn {
     margin-left: -12px;
 }
 
-span#portifolio {
+span#portfolio {
     display: inline;
     padding-left: 10px;
     padding-right: 10px;
