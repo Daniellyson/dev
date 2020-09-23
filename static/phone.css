@@ -25,7 +25,7 @@ nav#mainNav, div#brandNavbar {
 
 /*SideBar left*/
 
-header, section#tool {
+header.masthead, section#tool {
     background-position: center;
 }
 

@@ -1,7 +1,14 @@
 /*tippy*/
 .tippy-tooltip.img-theme {
     font-family: "Comic Sans MS", cursive, sans-serif;
+    text-transform: initial;
 }
+
+a.tooltip-a{
+    color: wheat;
+    display: inline;
+  }
+
 
 /*Side Bar*/
 button#openbtn {
@@ -49,6 +56,11 @@ header.masthead {
 
 section#tool {
     background-image:url('../assets/img/downloads-bg.jpg');
+}
+
+header.masthead, section#tool {
+    background-position: center;
+    width: 112%;
 }
 
 #mainNav.navbar-shrink {
