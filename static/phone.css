@@ -27,6 +27,7 @@ nav#mainNav, div#brandNavbar {
 
 header.masthead, section#tool {
     background-position: center;
+    width: 112%;
 }
 
 button#openbtn {   

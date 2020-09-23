@@ -58,11 +58,6 @@ section#tool {
     background-image:url('../assets/img/downloads-bg.jpg');
 }
 
-header.masthead, section#tool {
-    background-position: center;
-    width: 112%;
-}
-
 #mainNav.navbar-shrink {
     background: linear-gradient(100deg, #054432 , #043331, black); 
 }
