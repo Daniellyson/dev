@@ -1,4 +1,3 @@
-/*DESKTOP*/
 #openbtn {   
     top: 25px;
     margin-left: 20px;
@@ -11,8 +10,8 @@
     text-align: right;
     cursor: pointer;
     margin-right: 25px;
-
 }
 
-
-/*DESKTOP*/
+img#logo {
+    width: 70px;
+}
