@@ -64,6 +64,11 @@ span#portfolio {
     transition: 0.3s;
     display: block;
 }
+
+span#pc {
+    text-transform: initial;
+    font-size: 80%;
+}
 /*Side Bar*/
 
 header.masthead {
