@@ -12,8 +12,8 @@ function fireGitHubFuel() {
 
 tippy('#escape', {
     content: 'One of my developments during my internship at <span class="tippies" onclick="fireMiiL()">MiiL</span>.' +
-    ' An escape game to play on your PC, built for the platform <span class="tippies" onclick="fireUCL()">Smart\'Web</span> ' +
-    'built with <span class="tippies" onclick="fireUnity()">Unity</span>',
+    ' An escape game to play on your PC, built for the platform <span class="tippies" onclick="fireUCL()">Smart\'Web</span>. ' +
+    'Built in <span class="tippies" onclick="fireUnity()">Unity/C#</span>',
     interactive: true,
     placement: 'bottom',
     theme: 'sideBar',
