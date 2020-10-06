@@ -67,3 +67,8 @@ span#portfolio {
     padding-right: 10px;
 }
 /*SideBar left*/
+
+footer p {
+    font-size: 95%;
+    width: 100%;
+}

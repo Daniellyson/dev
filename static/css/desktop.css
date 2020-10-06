@@ -15,3 +15,8 @@
 img#logo {
     width: 70px;
 }
+
+footer p {
+    font-size: 115%;
+    width: 100%;
+}
