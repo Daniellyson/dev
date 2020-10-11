@@ -34,7 +34,7 @@ function fireLinkedin() {
     location.href = "https://www.linkedin.com/in/daniellyson-vasconcelos/";
 }
 
-function fireBaseUpdate() {
+function update() {
 
     var myCookie = getCookie();
 
@@ -76,7 +76,7 @@ function getCookie(cname = "Madeleine") {
     var ca = decodedCookie.split(';');
     for(var i = 0; i <ca.length; i++) {
       var c = ca[i];
-      while (c.charAt(0) == ' ') {
+      while (c.charAt(0) == '') {
         c = c.substring(1);
       }
       if (c.indexOf(name) == 0) {
