@@ -24,8 +24,6 @@ window.onload = function() {
             document.getElementById('like').innerHTML = snapshot.val().love;
         }
     });
-
-    alreadyLiked = false;
 }
 
 function fireGitHub() {
@@ -59,8 +57,6 @@ function fireUpdate() {
 
         setCookie();
     }
-
-    alreadyLiked = true;
 }
 
 function setCookie() {
