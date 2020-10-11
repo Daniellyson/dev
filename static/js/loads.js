@@ -69,7 +69,7 @@ function setCookie() {
     document.cookie = cname + "=" + cvalue + ";" + expires + ";";
 }
 
-function getCookie(cname = "Madeleine") {
+function getCookie(cname = "MyCookieIs") {
     var name = cname + "=";
     var decodedCookie = decodeURIComponent(document.cookie);
     var ca = decodedCookie.split(';');
