@@ -16,6 +16,10 @@ img#logo {
     width: 70px;
 }
 
+#likeContainer {
+    height: 50px;
+}
+
 footer p {
     font-size: 115%;
     width: 100%;

@@ -83,6 +83,15 @@ section#tool {
     background: linear-gradient(100deg, #054432 , #043331, black); 
 }
 
+#likeContainer .fa-heart {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#like {
+    text-align: center;
+}
+
 .me {
     font-size: 300%;
     margin: 0;
@@ -169,7 +178,7 @@ footer .fa-coffee {
     color: #e07150;
 }
 
-footer .fa-heart {
+.fa-heart {
     color: #ff0000;
 }
 

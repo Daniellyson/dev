@@ -27,8 +27,14 @@ img#logo {
     width: 60px;
 
 }
-
 /*brand side bar right*/
+
+#likeContainer {
+    padding-top: 7px;
+    margin-right: 7px;
+    height: 50px;
+    float: right;
+}
 
 /*SideBar left*/
 
