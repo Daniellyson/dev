@@ -46,3 +46,10 @@ tippy('#unity', {
     theme: 'language',
     arrow: true
 });
+
+tippy('#likeContainer .fa-heart', {
+    content: 'I like it <i class="fa fa-thumbs-up" aria-hidden="true"></i>',
+    placement: 'right',
+    theme: 'language',
+    arrow: false
+});
