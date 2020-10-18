@@ -62,7 +62,7 @@ function fireUpdate() {
 function setCookie() {
     var cname = "MyCookieIs";
     var cvalue = "Madeleine";
-    var exdays = 30;
+    var exdays = 90;
     var date = new Date();
     date.setTime(date.getTime() + (exdays*24*60*60*1000));
     var expires = "expires="+ date.toUTCString();
